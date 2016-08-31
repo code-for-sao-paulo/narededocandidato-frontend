@@ -7,7 +7,7 @@ var settings = {};
 dotenv.config({ silent: true });
 
 settings.constants = {
-  API_URL: process.env.API_URL || 'http://dev.api.sector3.com.br:8081',
+  API_URL: process.env.API_URL || 'http://dev.api.narededocandidato.com.br:8081',
 };
 
 settings.server = {

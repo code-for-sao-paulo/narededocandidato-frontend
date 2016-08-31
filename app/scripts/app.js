@@ -14,6 +14,6 @@
     'ngDialog', //ng-dialog
     'ngCookies', //angular-cookies
     'LocalStorageModule', //angular-local-storage
-    'im.im-front.config'
+    'narededocandidato.front.config'
   ]);
 })();
