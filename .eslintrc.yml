@@ -1,0 +1,14 @@
+extends: "airbnb/legacy"
+env:
+  browser: true
+globals:
+  angular: true
+  heap: true
+  Pikaday: true
+rules:
+  func-names: 0
+  no-use-before-define: [2, "nofunc"]
+  no-param-reassign: 0
+  comma-dangle: [2, "never"]
+  wrap-iife: [2, "inside"]
+  max-len: [1, 200]
