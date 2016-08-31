@@ -1,0 +1,38 @@
+{
+  "name": "narededocandidato-front",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run dependencies && gulp dist",
+    "dev:start": "gulp dev",
+    "dependencies": "npm install && GIT_DIR=/project bower install --allow-root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:code-for-sao-paulo/narededocandidato-backend.git"
+  },
+  "author": "Daniel Baptista <danielbdias@hotmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/code-for-sao-paulo/narededocandidato-frontend",
+  "dependencies": {
+    "bower": "^1.7.2",
+    "browser-sync": "~2.11.1",
+    "del": "~2.2.0",
+    "dotenv": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-minify": "0.0.5",
+    "gulp-ng-constant": "^1.1.0",
+    "gulp-plumber": "~1.1.0",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-watch": "~4.3.5",
+    "gulp-webserver": "~0.9.1",
+    "request": "^2.67.0",
+    "run-sequence": "~1.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0"
+  }
+}
